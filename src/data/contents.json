@@ -1,0 +1,199 @@
+{
+    "happy": {
+        "emotionId":100,
+        "name": "happy",
+        "title": "Meditation for Happy and Joyful Emotion",
+        "description": "The Joy and Happiness",
+        "gif": "../assets/images/animated/Breath.gif",
+        "media": [
+            {
+                "id": 1,
+                "title": "Happiness Meditation",
+                "mode": "Guided",
+                "duration": "5 min",
+                "mediaUrl": "https://firebasestorage.googleapis.com/v0/b/face2focus-9f200.appspot.com/o/Face2FocusMedia%2FHappyEmotionAudio%2FMeditation%20for%20Happiness%20.mp3?alt=media&token=96f79672-e34d-4084-825e-30c261a2b328"
+            },
+            {
+                "id": 2,
+                "title": "Joy Meditation",
+                "mode": "Guided",
+                "duration": "5 min",
+                "mediaUrl": "https://firebasestorage.googleapis.com/v0/b/face2focus-9f200.appspot.com/o/Face2FocusMedia%2FHappyEmotionAudio%2FJoy%20Meditation%20(Strengthen%20Happiness)%20.mp3?alt=media&token=5c9969df-0b20-4924-9c02-00e6147e5604"
+            },
+            {
+                "id": 3,
+                "title": "Equanimity Meditation (Find Calm)",
+                "mode": "Guided",
+                "duration": "5 min",
+                "mediaUrl": "https://firebasestorage.googleapis.com/v0/b/face2focus-9f200.appspot.com/o/Face2FocusMedia%2FHappyEmotionAudio%2FMeditation%20Joy%20.mp3?alt=media&token=acc9012b-e832-4b5f-9cde-57c31a25ae3e"
+            },
+            {
+                "id": 4,
+                "title": "Gratitude Meditation",
+                "mode": "Guided",
+                "duration": "5 min",
+                "mediaUrl": "https://firebasestorage.googleapis.com/v0/b/face2focus-9f200.appspot.com/o/Face2FocusMedia%2FHappyEmotionAudio%2FGratitude%20Meditation%20(Strengthen%20Happiness)%20.mp3?alt=media&token=5968205d-ffc5-489e-88b8-b87fcce1e898"
+            },
+            {
+                "id": 5,
+                "title": "OM Chant Meditation",
+                "mode": "Music",
+                "duration": "5 min",
+                "mediaUrl": "https://firebasestorage.googleapis.com/v0/b/face2focus-9f200.appspot.com/o/Face2FocusMedia%2FHappyEmotionAudio%2FOmChant2.mp3?alt=media&token=ddcacdae-8701-4c56-8cf7-22ae3841438b"
+            },
+            {
+                "id": 6,
+                "title": "Krishna Flute",
+                "mode": "Music",
+                "duration": "5 min",
+                "mediaUrl": "https://firebasestorage.googleapis.com/v0/b/face2focus-9f200.appspot.com/o/Face2FocusMedia%2FSadEmotionAudio%2FFlute%20Krishna%20Music.mp3?alt=media&token=2c7632af-a94b-4e9f-9491-6ec42034369e"
+            }
+        ]
+    },
+    "sad": {
+        "emotionId":200,
+        "name": "sad",
+        "title": "Meditation for Stress and Anxiety",
+        "description": "Overcomming Anxiety, Sadness, Grief and Fear",
+        "gif": "../assets/images/animated/BeHappy.gif",
+        "media": [
+            {
+                "id": 7,
+                "image": "../assets/images/media/sad/Sadness.jpeg",
+                "title": "Meditation for Sadness",
+                "mode": "Guided",
+                "duration": "9 min",
+                "mediaUrl": "https://firebasestorage.googleapis.com/v0/b/face2focus-9f200.appspot.com/o/Face2FocusMedia%2FSadEmotionAudio%2FMeditation%20on%20sadness.mp3?alt=media&token=ba8d5909-a53a-4353-a7b5-d56ccd6cf453"
+            },
+            {
+                "id": 8,
+                "image": "../assets/images/media/sad/SittingSadness.jpeg",
+                "title": "Sitting With Sadness Meditation",
+                "mode": "Guided",
+                "duration": "8 min",
+                "mediaUrl": "https://firebasestorage.googleapis.com/v0/b/face2focus-9f200.appspot.com/o/Face2FocusMedia%2FSadEmotionAudio%2FSitting%20with%20Sadness.mp3?alt=media&token=c821bd79-c8b7-4f89-996a-0ed9814477b5"
+            },
+            {
+                "id": 9,
+                "image": "../assets/images/media/sad/Alone.jpeg",
+                "title": "Meditation for Loneliness",
+                "mode": "Guided",
+                "duration": "10 min",
+                "mediaUrl": "https://firebasestorage.googleapis.com/v0/b/face2focus-9f200.appspot.com/o/Face2FocusMedia%2FSadEmotionAudio%2FMeditation%20for%20Loneliness.mp3?alt=media&token=de36f885-6c57-4cb9-a08d-771adad7ad16"
+            },
+            {
+                "id": 10,
+                "image": "../assets/images/media/sad/Gried.jpeg",
+                "title": "Meditation for Grief and Sadness",
+                "mode": "Guided",
+                "duration": "10 min",
+                "mediaUrl": "https://firebasestorage.googleapis.com/v0/b/face2focus-9f200.appspot.com/o/Face2FocusMedia%2FSadEmotionAudio%2FMeditation%20Grief%20and%20Sadness.mp3?alt=media&token=5eb4ee9e-7174-4b97-81a7-1c2298d118c6"
+            },
+            {
+                "id": 11,
+                "image": "../assets/images/media/sad/Frustation.jpeg",
+                "title": "Meditation for Frustation",
+                "mode": "Guided",
+                "duration": "10 min",
+                "mediaUrl": "https://firebasestorage.googleapis.com/v0/b/face2focus-9f200.appspot.com/o/Face2FocusMedia%2FSadEmotionAudio%2FMeditation%20for%20Frustation.mp3?alt=media&token=23b37b9f-4354-4795-85fa-5f7ff3a3cefb"
+            },
+            {
+                "id": 12,
+                "image": "../assets/images/media/sad/Stress.jpeg",
+                "title": "Meditation for Stress",
+                "mode": "Guided",
+                "duration": "10 min",
+                "mediaUrl": "https://firebasestorage.googleapis.com/v0/b/face2focus-9f200.appspot.com/o/Face2FocusMedia%2FSadEmotionAudio%2FMeditation%20on%20sadness.mp3?alt=media&token=ba8d5909-a53a-4353-a7b5-d56ccd6cf453"
+            },
+            {
+                "id": 13,
+                "image": "../assets/images/media/sad/Anxiety.jpeg",
+                "title": "Anxiety Reduction",
+                "mode": "Guided",
+                "duration": "5 min",
+                "mediaUrl": "https://firebasestorage.googleapis.com/v0/b/face2focus-9f200.appspot.com/o/Face2FocusMedia%2FSadEmotionAudio%2FMeditation%20Anxiety%20Reduction.mp3?alt=media&token=ac6757c5-a29b-4642-88b2-22d1c306afe7"
+            },
+            {
+                "id": 14,
+                "image": "../assets/images/media/sad/SocialAnxiety.jpeg",
+                "title": "Meditation for Anxiety and Fear",
+                "mode": "Guided",
+                "duration": "6 min",
+                "mediaUrl": "https://firebasestorage.googleapis.com/v0/b/face2focus-9f200.appspot.com/o/Face2FocusMedia%2FSadEmotionAudio%2FMeditation%20Anxity%20.mp3?alt=media&token=e21d58b3-a69e-4742-a7be-619d0f4e08db"
+            },
+            {
+                "id": 15,
+                "image": "../assets/images/media/sad/Flute.jpeg",
+                "title": "Krishna Flute",
+                "mode": "Music",
+                "duration": "5 min",
+                "mediaUrl": "https://firebasestorage.googleapis.com/v0/b/face2focus-9f200.appspot.com/o/Face2FocusMedia%2FSadEmotionAudio%2FFlute%20Krishna%20Music.mp3?alt=media&token=2c7632af-a94b-4e9f-9491-6ec42034369e"
+            }
+        ]
+    },
+    "calm": {
+        "emotionId":300,
+        "name": "calm",
+        "title": "Meditation for Calm Emotion",
+        "description": "The Calmness and Relaxing",
+        "gif": "../assets/images/animated/Calm.gif",
+        "media": [
+            {
+                "id": 16,
+                "image": "../assets/images/media/calm/Calm.jpeg",
+                "title": "Daily Calm",
+                "mode": "Guided",
+                "duration": "10 min",
+                "mediaUrl": "https://firebasestorage.googleapis.com/v0/b/face2focus-9f200.appspot.com/o/Face2FocusMedia%2FCalmEmotionAudio%2FDaily%20Calm.mp3?alt=media&token=f6f88f81-7584-4b1d-9940-278afecf3a8b"
+            },
+            {
+                "id": 17,
+                "image": "../assets/images/media/calm/Nature.jpeg",
+                "title": "Flute Nature Sound",
+                "mode": "Music",
+                "duration": "5 min",
+                "mediaUrl": "https://firebasestorage.googleapis.com/v0/b/face2focus-9f200.appspot.com/o/Face2FocusMedia%2FSadEmotionAudio%2FFlute%20Nature%20Music.mp3?alt=media&token=2f526852-8472-4857-8b30-28e7378d8ebd"
+            },
+            {
+                "id": 18,
+                "image": "../assets/images/media/happy/Equanimity.jpg",
+                "title": "Equanimity Meditation (Find Calm)",
+                "mode": "Guided",
+                "duration": "5 min",
+                "mediaUrl": "https://firebasestorage.googleapis.com/v0/b/face2focus-9f200.appspot.com/o/Face2FocusMedia%2FHappyEmotionAudio%2FMeditation%20Joy%20.mp3?alt=media&token=acc9012b-e832-4b5f-9cde-57c31a25ae3e"
+            },
+            {
+                "id": 19,
+                "image": "../assets/images/media/happy/Krishna.jpeg",
+                "title": "Krishna Flute",
+                "mode": "Music",
+                "duration": "5 min",
+                "mediaUrl": "https://firebasestorage.googleapis.com/v0/b/face2focus-9f200.appspot.com/o/Face2FocusMedia%2FSadEmotionAudio%2FFlute%20Krishna%20Music.mp3?alt=media&token=2c7632af-a94b-4e9f-9491-6ec42034369e"
+            },
+            {
+                "id": 20,
+                "image": "../assets/images/media/happy/OM.jpg",
+                "title": "OM Chant Meditation",
+                "mode": "Music",
+                "duration": "5 min",
+                "mediaUrl": "https://firebasestorage.googleapis.com/v0/b/face2focus-9f200.appspot.com/o/Face2FocusMedia%2FHappyEmotionAudio%2FOmChant2.mp3?alt=media&token=ddcacdae-8701-4c56-8cf7-22ae3841438b"
+            },
+            {
+                "id": 21,
+                "image": "../assets/images/media/calm/CalmCartoon.jpeg",
+                "title": "Relaxing for Stress Relief",
+                "mode": "Music",
+                "duration": "5 min",
+                "mediaUrl": "https://firebasestorage.googleapis.com/v0/b/face2focus-9f200.appspot.com/o/Face2FocusMedia%2FCalmEmotionAudio%2FMeditation%20Relax%20Music.mp3?alt=media&token=9aaed765-636c-4e1b-a9f8-cd068164ae34"
+            },
+            {
+                "id": 22,
+                "image": "../assets/images/media/calm/Healing.jpeg",
+                "title": "Relaxing Zen",
+                "mode": "Music",
+                "duration": "5 min",
+                "mediaUrl": "https://firebasestorage.googleapis.com/v0/b/face2focus-9f200.appspot.com/o/Face2FocusMedia%2FCalmEmotionAudio%2FRelaxing%20Zen%20Music.mp3?alt=media&token=827a02f5-929e-4c1e-ac80-663e149373d5"
+            }
+        ]
+    }
+}
