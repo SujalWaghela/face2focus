@@ -5,20 +5,23 @@
  * @format
  * @flow strict-local
  */
-// React Hooks
-import React, {useEffect} from 'react';
+
+import React from 'react';
 import Screens from './src/screens';
 
-// Splash Screen
-// import SplashScreen from 'react-native-splash-screen';
+//Splash Screen
+import SplashScreen from 'react-native-splash-screen';
+
+ // WebBrowser.maybeCompleteAuthSession();
 
 const App = () => {
   
   // useEffect(() => {
   //   SplashScreen.hide();
   // }, []);
+    
+    return <Screens />;
 
-  return <Screens />;
 };
 
 export default App;
