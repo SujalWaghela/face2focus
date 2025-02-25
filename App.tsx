@@ -6,19 +6,18 @@
  * @flow strict-local
  */
 
-import React from 'react';
+import React, { useEffect, useLayoutEffect } from 'react';
 import Screens from './src/screens';
 
-//Splash Screen
 import SplashScreen from 'react-native-splash-screen';
 
  // WebBrowser.maybeCompleteAuthSession();
 
 const App = () => {
   
-  // useEffect(() => {
-  //   SplashScreen.hide();
-  // }, []);
+   useLayoutEffect(() => {
+     SplashScreen.hide();
+  }, []);
     
     return <Screens />;
 
