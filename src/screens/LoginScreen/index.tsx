@@ -126,19 +126,22 @@ const styles = StyleSheet.create({
   },
   textContainer: {
     marginTop: 0,
+    
   },
   welcomeText: {
     fontSize: 23,
     textAlign: 'center',
     fontFamily: 'SFUIDisplay-Black',
+    fontWeight: 'bold',
   },
   infoContainer: {
     marginVertical: 25,
     marginHorizontal: 15,
   },
   infoText: {
-    fontSize: 17,
+    fontSize: 16,
     fontFamily: 'SFUIDisplay-Semibold',
+    fontWeight: 'bold',
   },
   buttonContainer: {
     marginVertical: 0,
