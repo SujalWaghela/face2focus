@@ -2,16 +2,20 @@ import React from 'react';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import QuotationScreen from './QuorationScreen';
 import LoginScreen from './LoginScreen';
-
-
+import Profile from './UserProfile';
+import MeditationAudioCollection from './MeditationAudioCollection';
+import AudioPlayer from './AudioPlayer';
+import AudioPlayerController from './AudioPlayerController';
+import VisionCamera from './Camera/VisionCamera';
+import UserSnapScreen from './PhotoSnap';
 
 const Stack = createNativeStackNavigator();
 
 const AppStack = () => {
   return (
-    <Stack.Navigator>
+    <Stack.Navigator initialRouteName='Quotation'>
       <Stack.Screen
-        name="QuotationPage"
+        name="Quotation"
         component={QuotationScreen}
         options={{headerShown: false}}
       />
@@ -20,42 +24,42 @@ const AppStack = () => {
         component={LoginScreen}
         options={{headerShown: false }}
       />
-      {/* <Stack.Screen
+      <Stack.Screen
         name="CameraModule"
-        component={CameraModulePage}
+        component={VisionCamera}
         options={({navigation}) => ({headerShown: false})}
       />
       <Stack.Screen
         name="UserPictureSnap"
-        component={UserPictureSnapPage}
+        component={UserSnapScreen}
         options={({navigation}) => ({headerShown: false, animationEnabled:false})}
       />
-      <Stack.Screen
+      {/* <Stack.Screen
         name="UserPickerPictureSnap"
         component={UserPickerPictureSnap}
         options={({navigation}) => ({headerShown: false, animationEnabled:false})}
-      />
+      /> */}
       <Stack.Screen
         name="MeditationListAudios"
-        component={MeditationListAudios}
+        component={MeditationAudioCollection}
         options={({navigation}) => ({headerShown: false, animationEnabled:false})}
       />
       <Stack.Screen
         name="AudioBegin"
-        component={AudioBeginPage}
+        component={AudioPlayer}
         options={({navigation}) => ({headerShown: false, animationEnabled:false})}
       />
        <Stack.Screen
         name="AudioPlayerController"
         component={AudioPlayerController}
         options={({navigation}) => ({headerShown: false, animationEnabled:false})}
-      /> */}
-{/*       
+      /> 
+      
       <Stack.Screen
         name="UserProfilePage"
-        component={UserProfilePage}
+        component={Profile}
         options={({navigation}) => ({headerShown: false, animationEnabled:false})}
-      />  */}
+      /> 
     </Stack.Navigator>
   );
 };

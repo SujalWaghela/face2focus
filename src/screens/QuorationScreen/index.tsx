@@ -10,13 +10,22 @@ import {
 } from 'react-native';
 import generateQuotes from '../../utils/generateQuotations';
 import Colors from '../../constant/Colors';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const QuotationScreen = (props: any) => {
   // TextColor of Quotation Screen
   const color = Colors.textWhiteaccent;
 
   return (
-    <TouchableWithoutFeedback onPress={() => props.navigation.navigate('LoginModule')}>
+    <TouchableWithoutFeedback onPress={() => {
+      AsyncStorage.getItem('user').then((data) => {
+        if (data) {
+          props.navigation.navigate('CameraModule')
+        } else {
+          props.navigation.navigate('LoginModule')
+        }
+      })
+    }}>
         <View style={styles.quoteScreenContainer}>
           <StatusBar barStyle="light-content" backgroundColor="#1F232E" />
           <View style={styles.imageContainer}>

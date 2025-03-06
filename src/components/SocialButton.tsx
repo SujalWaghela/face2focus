@@ -17,6 +17,7 @@ const SocialButton = ({buttonTitle, btnType, color, backgroundColor,onPress}:ISo
   return (
     <TouchableOpacity
     activeOpacity={0.6}
+    onPress={onPress}
       style={[styles.buttonContainer, {backgroundColor: bgColor}]}
       >
       {/* <View style={styles.iconWrapper}>
