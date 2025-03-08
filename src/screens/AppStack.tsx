@@ -2,7 +2,6 @@ import React from 'react';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import QuotationScreen from './QuorationScreen';
 import LoginScreen from './LoginScreen';
-import Profile from './UserProfile';
 import MeditationAudioCollection from './MeditationAudioCollection';
 import AudioPlayer from './AudioPlayer';
 import AudioPlayerController from './AudioPlayerController';
@@ -52,12 +51,6 @@ const AppStack = () => {
        <Stack.Screen
         name="AudioPlayerController"
         component={AudioPlayerController}
-        options={({navigation}) => ({headerShown: false, animationEnabled:false})}
-      /> 
-      
-      <Stack.Screen
-        name="UserProfilePage"
-        component={Profile}
         options={({navigation}) => ({headerShown: false, animationEnabled:false})}
       /> 
     </Stack.Navigator>

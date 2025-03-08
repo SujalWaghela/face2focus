@@ -12,13 +12,12 @@ import {Camera, CameraPosition, useCameraDevices} from 'react-native-vision-came
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import Colors from '../../../constant/Colors';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import UserProfile from '../../../components/UserProfile';
 
 const VisionCamera = (props: any) => {
   const cameraRef = useRef<Camera>(null);
   const devices = useCameraDevices();
-  const [cameraPosition, setCameraPosition] = useState<CameraPosition | any>('back');
   const [cameraIndex, setCameraIndex] = useState<number>(2);
-  const [flashMode, setFlashMode] = useState<'off' | 'on'>('off');
   console.log('devices', devices)
   const device = devices[cameraIndex];
 
@@ -35,9 +34,7 @@ const VisionCamera = (props: any) => {
   const takePicture = async () => {
     try {
       if (cameraRef.current) {
-        const photo = await cameraRef.current.takePhoto({
-          flash: flashMode,
-        });
+        const photo = await cameraRef.current.takePhoto({});
         props.navigation.navigate('UserPictureSnap', {uri: photo.path});
       }
     } catch (error) {
@@ -50,8 +47,7 @@ const VisionCamera = (props: any) => {
   };
 
   const onLogout = () => {
-    // setFlashMode(current => (current === 'off' ? 'on' : 'off'));
-    AsyncStorage.removeItem('user').then(() => {
+    AsyncStorage.removeItem('@userdata').then(() => {
       props.navigation.navigate('LoginModule');
     })
   };
@@ -73,6 +69,9 @@ const VisionCamera = (props: any) => {
         device={device}
         isActive={true}
         photo={true}
+      />
+      <UserProfile
+          onProfilePicture={() => {}}
       />
 
       <View style={styles.controlsContainer}>
@@ -142,6 +141,3 @@ const styles = StyleSheet.create({
 
 export default VisionCamera;
 
-function setCameraType(arg0: (current: any) => "front" | "back") {
-    throw new Error('Function not implemented.');
-}

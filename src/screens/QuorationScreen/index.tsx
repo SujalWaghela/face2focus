@@ -10,7 +10,7 @@ import {
 } from 'react-native';
 import generateQuotes from '../../utils/generateQuotations';
 import Colors from '../../constant/Colors';
-import AsyncStorage from '@react-native-async-storage/async-storage';
+import { getUserInfo } from '../../utils/StorageHelper';
 
 const QuotationScreen = (props: any) => {
   // TextColor of Quotation Screen
@@ -18,7 +18,7 @@ const QuotationScreen = (props: any) => {
 
   return (
     <TouchableWithoutFeedback onPress={() => {
-      AsyncStorage.getItem('user').then((data) => {
+      getUserInfo().then((data) => {
         if (data) {
           props.navigation.navigate('CameraModule')
         } else {
