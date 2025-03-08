@@ -21,12 +21,8 @@ const SocialButton = ({buttonTitle, btnType, color, backgroundColor,onPress}:ISo
       style={[styles.buttonContainer, {backgroundColor: bgColor}]}
       >
       <View style={styles.buttonRow}>
-        <View style={styles.iconWrapper}>
-          <FontAwesome name={"google"} style={styles.icon} size={22} color={color} />
-        </View>
-        <View style={styles.btnTxtWrapper}>
-          <Text style={[styles.buttonText, {color: color}]}>{buttonTitle}</Text>
-        </View>
+        <FontAwesome name={"google"} style={styles.icon} size={22} color={color} />
+        <Text style={[styles.buttonText, {color: color}]}>{buttonTitle}</Text>
       </View>
     </TouchableOpacity>
   );
@@ -37,30 +33,26 @@ export default SocialButton;
 const styles = StyleSheet.create({
   buttonContainer: {
     marginVertical: 10,
-    width: '100%',
-    height: windowHeight / 15,
-    paddingHorizontal: windowWidth / 6,
+    height: 48,
+    paddingHorizontal: 32,
     borderRadius: 40,
     justifyContent: 'center',
   },
   buttonRow: {
     flex: 1,
+    width: '90%',
     flexDirection: 'row',
     justifyContent: 'center',
-    alignItems: 'center'
-  },
-  iconWrapper: {
-    width: 30
+    alignItems: 'center',
+    alignSelf: 'center'
   },
   icon: {
     fontWeight: 'bold',
-  },
-  btnTxtWrapper: {
-    flex: 1,
   },
   buttonText: {
     fontSize: 16,
     fontFamily: 'SFUIDisplay-Bold',
     fontWeight: 'bold',
+    marginHorizontal: 16
   },
 });

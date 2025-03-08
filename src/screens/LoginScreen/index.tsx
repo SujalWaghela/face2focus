@@ -82,7 +82,7 @@ const LoginScreen = (props: any) => {
               /*-------- Some other error happened ------*/
             }
             console.log(error);
-            Alert.alert('SOMETHING ELSE WENT WRONG');
+            Alert.alert('Login action has been cancelled');
             console.log('other error', error.code);
             setError(error);
           }

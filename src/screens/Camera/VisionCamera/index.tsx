@@ -56,6 +56,11 @@ const VisionCamera = (props: any) => {
     return (
       <View style={styles.loadingContainer}>
         <Text>Loading camera device...</Text>
+        <TouchableOpacity onPress={onLogout} style={styles.controlButton}>
+          <View style={styles.iconContainer}>
+              <Icon name='logout' size={30} color={Colors.white} />
+          </View>
+        </TouchableOpacity>
       </View>
     );
   }
